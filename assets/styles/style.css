@@ -1,96 +1,1 @@
-@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:500&display=swap&subset=latin-ext');
-
-:root {
-    box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
-}
-
-body {
-    margin: 0;
-    font-family: 'Libre Franklin', sans-serif;
-    background-color: #141b23;
-    background-image: url('./../images/background-nightwatch-141b23.png');
-}
-
-.container {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    padding-top: 65px;
-    padding-bottom: 50px;
-    padding-right: 55px;
-    padding-left: 55px;
-    background-position: top -2px right -20px;
-    background-repeat: no-repeat;
-    background-image: url('./../images/background-nightwatch-image.png');
-
-}
-
-.navigation-menu {
-    font-size: 18px;
-    padding: 0;
-    margin: 0;
-    color: #9da6b5;
-
-}
-
-.navigation-menu-item {
-    display: inline;
-    margin-right: 15px;
-    font-size: 15px;
-
-}
-
-.navigation-menu-logo {
-    display: inline;
-    margin-right: 20px;
-    text-transform: uppercase;
-    color: #9da6b5;
-    font-size: 17px;
-}
-
-.card {
-    overflow: hidden;
-    color: #ffffff;
-    padding-bottom: 10px
-}
-
-.content {
-    padding: 70px 40px;
-    flex: 1 0 auto;
-    margin-top: auto;
-}
-
-.card-header {
-    margin-bottom: 10px;
-
-}
-
-.card-header h2 {
-    font-size: 25px;
-    margin: 0;
-    font-weight: normal;
-}
-
-.card-body p {
-    margin-top: 0;
-    margin-bottom: 20px;
-    max-width: 467px;
-    font-size: 13px;
-}
-
-.card-body > p + p {
-    margin: 0;
-}
-
-.footer {
-    color: #54595f;
-    font-size: 12px;
-    flex-shrink: 0;
-}
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:500&display=swap&subset=latin-ext');:root {    box-sizing: border-box;}*,*::before,*::after {    box-sizing: inherit;}body {    margin: 0;    font-family: 'Libre Franklin', sans-serif;    background-color: #141b23;    background-image: url('./../images/background-nightwatch-141b23.png');}.container {    margin: 0;    display: flex;    flex-direction: column;    min-height: 100vh;    padding-top: 65px;    padding-bottom: 50px;    padding-right: 55px;    padding-left: 55px;    background-position: top -2px right -20px;    background-repeat: no-repeat;    background-image: url('./../images/background-nightwatch-image.png');}.navigation-menu {    font-size: 18px;    padding: 0;    margin: 0;    color: #9da6b5;}a:link {    text-decoration: none;    color: #9da6b5;}a:visited {    text-decoration: none;    color: #9da6b5;}.navigation-menu-item {    display: inline;    margin-right: 15px;    font-size: 15px;    text-decoration: none;}.navigation-menu-logo {    display: inline;    margin-right: 30px;    text-transform: uppercase;    font-size: 17px;    text-decoration: none;}.card {    overflow: hidden;    color: #ffffff;    padding-bottom: 10px}.content {    padding: 70px 40px;    flex: 1 0 auto;    margin-top: auto;}.card-header {    margin-bottom: 10px;}.card-header h2 {    font-size: 25px;    margin: 0;    font-weight: normal;}.card-body p {    margin-top: 0;    margin-bottom: 20px;    max-width: 467px;    font-size: 13px;}.card-body>p+p {    margin: 0;}.footer {    color: #54595f;    font-size: 12px;    flex-shrink: 0;}
